@@ -2,8 +2,8 @@
 
 Adobe Premiere Pro のディレクトリ作成を一括で行うスクリプト
 
-ディレクトリ構成
-- sh01-first - 作成する動画のフォルダ  
+## ディレクトリ構成
+- root - 作成する動画のフォルダ（名前は任意で変更可能）  
 - 01_footage - 動画データ  
 - 02_asset   - 動画以外の素材  
   - img       - 画像素材  
@@ -14,7 +14,7 @@ Adobe Premiere Pro のディレクトリ作成を一括で行うスクリプト
 
 ```
 .  
-⎿＿ sh01-first  
+⎿＿ root  
 　　　├─ 01_footage  
 　　　├─ 02_asset  
 　　　│　├─  img  
@@ -23,3 +23,8 @@ Adobe Premiere Pro のディレクトリ作成を一括で行うスクリプト
 　　　├─ 03_proj  
 　　　└─ 04_out
 ```
+
+## プログラム  
+main.py - 最終的に実行を行うプログラム  
+input_name.py - rootの名前を指定するプログラム  
+make_script.py - スクリプトを作成するプログラム  
